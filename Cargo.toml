@@ -15,8 +15,8 @@ description = "Unofficial flatbuffers and tonic code of Apache Arrow spec"
 planus = { version = "0.3.1", optional = true }
 serde = { version = "1", optional = true, default-features = false, features = ["derive", "std"] }
 tonic = { version = "0.12.3", optional = true }
-prost = { version = "0.12", optional = true }
-prost-derive = { version = "0.12", optional = true }
+prost = { version = "0.13", optional = true }
+prost-derive = { version = "0.13", optional = true }
 
 [features]
 default = []
